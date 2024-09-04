@@ -1,0 +1,74 @@
+/* Style for the Body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Style for the Navigation */
+nav {
+    background-color: #555;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ffc107; /* Change color on hover */
+}
+
+/* Style for the Sections */
+section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px; /* Add a subtle border-radius for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Style for the Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Additional global styles */
+h1, h2, h3 {
+    color: #333; /* Adjust heading colors for better contrast */
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out;
+}
